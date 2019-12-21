@@ -7,8 +7,8 @@
         "have api",
         "open311"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/grand-rapids-michigan-311\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,13 +22,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/grand-rapids-michigan-311-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/grand-rapids-michigan-311\/master\/grand-rapids-michigan-311-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/grand-rapids-michigan-311\/master\/grand-rapids-michigan-311-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Open 311 Feed",
             "url": "http:\/\/grcity.spotreporters.com\/open311\/v2\/services.xml?jurisdiction_id=grcity.us"
